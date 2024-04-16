@@ -20,7 +20,7 @@ public class Media_edades {
 
        teclado.close();
 
-       int mediaEdades = (edadMadre + edadPadre) / 2;
+       float mediaEdades = (float) (edadMadre + edadPadre) / 2;
 
        System.out.println("Tu madre se llama " + nombreMadre + " y tiene " + edadMadre + " años, y tu padre se llama " + nombrePadre + " y tiene " + edadPadre + " años, y la media de sus edades es " + mediaEdades);
     
